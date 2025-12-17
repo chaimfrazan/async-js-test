@@ -52,7 +52,10 @@ export async function dangerousPeople() {
           count += 1;
         }
       }
+      console.log(`${current.age}: ${count}`);
     }
+
+    return count;
   } catch {}
 }
 //     jsonData[i].content.slice(index);
